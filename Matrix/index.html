@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Matrix Addition</title>
+    
+</head>
+<body>
+
+    <h1>Matrix Addition</h1>
+
+    <div id="matrix-container">
+        <div class="matrix">
+            <h3>Matrix 1</h3>
+            <input type="number" id="matrix1-one">
+            <input type="number" id="matrix1-two"><br>
+            <input type="number" id="matrix1-three">
+            <input type="number" id="matrix1-four">
+        </div>
+
+        <div class="matrix">
+            <h3>Matrix 2</h3>
+            <input type="number" id="matrix2-one">
+            <input type="number" id="matrix2-two"><br>
+            <input type="number" id="matrix2-three">
+            <input type="number" id="matrix2-four">
+        </div>
+
+        <button onclick="addMatrices()">Add Matrices</button>
+
+        <div class="result-matrix">
+            <h3>Result Matrix</h3>
+            <input type="number" id="result1-one" disabled>
+            <input type="number" id="result1-two" disabled><br>
+            <input type="number" id="result1-three" disabled>
+            <input type="number" id="result1-four" disabled>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
